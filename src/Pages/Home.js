@@ -3,6 +3,7 @@ import heroBannerSm from '../assets/hero-banner-small.jpg';
 import AboutUs from '../Component/AboutUs';
 import Footer from '../Component/Footer';
 import Navbar from '../Component/Navbar';
+import Overview from '../Component/Overview';
 
 
 
@@ -16,7 +17,7 @@ const Home = () => {
         alt="sora and saki banner" 
         className='w-full'
       />
-      {/* <Overview/> */}
+      <Overview/>
       <AboutUs/>
       <Footer />
     </>
